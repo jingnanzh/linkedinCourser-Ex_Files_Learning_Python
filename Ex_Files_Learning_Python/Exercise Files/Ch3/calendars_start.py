@@ -46,5 +46,4 @@ for m in range(1,13):
     else:
         meetday=weektwo[calendar.FRIDAY]
     print("%10s %2d" %(calendar.month_name[m],meetday))
-    #%s acts a placeholder for a string while %d acts as a placeholder for a number
     # %2d will print the parameter right aligned as int with at least 2 characters
