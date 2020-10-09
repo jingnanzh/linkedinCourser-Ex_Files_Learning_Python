@@ -23,7 +23,7 @@ def main():
   
   # Get the modification time
   t = time.ctime(path.getmtime("textfile.txt"))
-  print (t)
+  print ('t is ',t)
   print (datetime.datetime.fromtimestamp(path.getmtime("textfile.txt")))
   
   # Calculate how long ago the item was modified

@@ -42,9 +42,9 @@ if afd < today:
 
 # Now calculate the amount of time until April Fool's Day  
 time_to_afd = afd - today
-print("it's just" , time_to_afd, "days to April fool's day" )
+print("it's just" , time_to_afd.days, "days to April fool's day" )
 time_to_lisa_birthday = today- lisa_birthday
-print("it's just" , time_to_lisa_birthday, "days to Lisa's birthday" )
+print("it's just" , time_to_lisa_birthday.days, "days to Lisa's birthday" )
 days_lisa = today - lisa_birthday
-print("史文琦 has been with mom for ", days_lisa)
+print("史文琦 has been with mom for ", days_lisa.days)
 
