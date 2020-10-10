@@ -1,7 +1,6 @@
 # 
 # Example file for parsing and processing HTML
 from html.parser import HTMLParser
-
 metacount  = 0;
 
 class MyHTMLParser(HTMLParser):
