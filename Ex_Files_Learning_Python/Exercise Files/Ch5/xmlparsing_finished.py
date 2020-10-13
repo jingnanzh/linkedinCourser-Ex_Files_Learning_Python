@@ -27,7 +27,10 @@ def main():
   print ("%d skills:" % skills.length)
   for skill in skills:
     print (skill.getAttribute("name"))
-        
+
+  with open("modified_xml.xml", "w") as output_file:
+    doc.writexml(output_file)
+
 if __name__ == "__main__":
   main();
 
